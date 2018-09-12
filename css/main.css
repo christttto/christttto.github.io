@@ -1,4 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
 div {
-	font-size: 30px;
 	
+	
+}
+
+.bg {
+	background-image: url(../images/background.jpg);
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+
 }
