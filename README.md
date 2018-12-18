@@ -12,3 +12,4 @@ Writing text for pages</br>
 mapped out pages needed to make the pages</br>
 TODO : find way to animate collapses and spreading for the landing page.</br>
 TODO : find way to create directory, with proper directory
+TODO : take photo timelapse for the landing page
