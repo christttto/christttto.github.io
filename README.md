@@ -11,4 +11,5 @@ Too many names, and too many things i do.
 
 # 2018 December
 ## 18th
-asdf
+Needs a design template to follow to create.
+Making a XD design
