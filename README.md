@@ -16,3 +16,5 @@ TODO : take photo timelapse for the landing page
 
 ## 18th
 Started to import code for basic animaiton for text
+TODO : make the text start to appear at slower pace
+TODO : make the letters less bouncy
