@@ -20,15 +20,23 @@
 	<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
 	<!--<script type="text/javascript" src="js/vendors/scrolloverflow.min.js"></script>-->
 	<!--<script type="text/javascript" src="js/fullpage.js"></script>-->	
+	<!--anime import-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<!--jquery import-->
 	<script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	
 	<div class="bg" >
-		<div class="text title">Still Cooking!</div>
+		<h1 class="ml6">
+			<span class="text-wrapper">
+				<!--TODO:make the text start to appear at slower pace-->
+				<!--TODO:make the letters less bouncy-->
+		    	<span class="letters">ChrisKim</span>
+			</span>
+		</h1>
 	</div>
-	
+
 	<!--
 	<div id="fullpage">
 		<div class="section">
@@ -57,27 +65,27 @@
 	-->
 	<script type="text/javascript">
 		// Wrap every letter in a span
-		$('.title').each(function(){
+		$('.ml6 .letters').each(function(){
 		  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+
 		});
 
 		anime.timeline({loop: true})
 		  .add({
-		    targets: '.title .letter',
-		    scale: [4,1],
-		    opacity: [0,1],
-		    translateZ: 0,
-		    easing: "easeOutExpo",
-		    duration: 950,
+		    targets: '.ml6 .letter',
+		    translateY: ["-1.2em", 0],
+		    translateZ: 100,
+		    duration: 1000,//dropping pace for one of them
 		    delay: function(el, i) {
-		      return 70*i;
+		    	//dropping pace for each, bigger, more seperated
+		      	return 100 * i;
 		    }
-		  }).add({
-		    targets: '.title',
+		  }).add({//for fading away
+		    targets: '.ml6',
 		    opacity: 0,
 		    duration: 1000,
 		    easing: "easeOutExpo",
-		    delay: 1000
+		    delay: 2000
 		  });
 	</script>
 </body>
