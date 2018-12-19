@@ -6,8 +6,12 @@ div {
 	
 	
 }
-
+h1{
+	text-align: right;
+	font-size: 100px;
+}
 .bg {
+	padding-top: 10%;
 	background-image: url(../images/background.jpg);
 	height:100%;
 	background-position: center;
