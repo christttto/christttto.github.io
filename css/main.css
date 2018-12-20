@@ -7,7 +7,7 @@ div {
 	
 }
 h1{
-	text-align: right;
+	text-align: center;
 	font-size: 100px;
 }
 .bg {
@@ -45,4 +45,8 @@ h1{
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+.title {
+	padding-left: 10%;
 }
