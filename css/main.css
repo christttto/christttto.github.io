@@ -7,8 +7,14 @@ div {
 	
 }
 h1{
-	text-align: center;
-	font-size: 100px;
+	text-align: right;
+	vertical-align: bottom;
+}
+h2{
+	margin-bottom: 0;
+}
+.row{
+	vertical-align: bottom;
 }
 .bg {
 	padding-top: 10%;
@@ -29,7 +35,7 @@ h1{
 
 .ml6 {
   position: relative;
-  font-weight: 900;
+  font-weight: 1200;
   font-size: 3.3em;
 }
 
@@ -45,8 +51,4 @@ h1{
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
-}
-
-.title {
-	padding-left: 10%;
 }

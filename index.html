@@ -41,6 +41,7 @@
 			<div class="row">
 				<div class="col-md-3"><h1></h1></div>
 				<div class="col-md-3"><h1>Develop</h1></div>
+				<!-- TODO : text not inline at bottom margin issue-->
 				<div class="col-md-6"><h2>Web C# Java Python</h2></div>
 			</div>
 			<div class="row">
@@ -102,22 +103,26 @@
 		});
 
 		anime.timeline({loop: true})
-		  .add({
-		    targets: '.ml6 .letter',
-		    translateY: ["-1.2em", 0],
-		    translateZ: 100,
-		    duration: 1000,//dropping pace for one of them
-		    delay: function(el, i) {
-		    	//dropping pace for each, bigger, more seperated
-		      	return 100 * i;
-		    }
-		  }).add({//for fading away
-		    targets: '.ml6',
-		    opacity: 0,
-		    duration: 1000,
-		    easing: "easeOutExpo",
-		    delay: 2000
-		  });
+		  	.add({
+			  	targets: '.ml6 .letter',
+			  	translateY: ["-1.2em", 0],
+			  	translateZ: 100,
+			  	duration: 1000,//dropping pace for one of them
+			  	delay: function(el, i) {
+			  		//dropping pace for each, bigger, more seperated
+			  	  	return 100 * i;
+			  	}
+			  	
+		  	})
+		  	
+		  	.add({//for fading away
+		    	targets: '.ml6',
+		    	opacity: 0,
+		    	duration: 1000,
+		    	easing: "easeOutExpo",
+		    	delay: 2000//how long it lasts
+		  	});
+		  	
 	</script>
 </body>
 </html>
