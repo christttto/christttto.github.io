@@ -13,14 +13,6 @@
 	  gtag('config', 'UA-131081317-1');
 	</script>
 
-	<!--fullpage-->
-	<!--<link rel="stylesheet" type="text/css" href="css/fullpage.css" />-->
-	<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
-	<!--<script src="js/vendors/easings.min.js"></script>-->
-	<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-	<!--<script type="text/javascript" src="js/vendors/scrolloverflow.min.js"></script>-->
-	<!--<script type="text/javascript" src="js/fullpage.js"></script>-->
-
 	<!--Anime import-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<!--Jquery import-->
@@ -61,68 +53,7 @@
 			</div>
 		</div>
 	</div>
-	<h1 class="ml6">
-		<span class="text-wrapper">
-			<!--TODO : make the text start to appear at slower pace-->
-			<!--TODO : make the letters less bouncy-->
-	    	<span class="letters">ChrisKim</span>
-		</span>
-	</h1>
-	<!--
-	<div id="fullpage">
-		<div class="section">
-			<div class="slide"> Slide 1asdfasdf </div>
-			<div class="slide"> Slide 2qwerqwe </div>
-			<div class="slide"> Slide 3 12341234</div>
-			<div class="slide"> Slide 4 56747</div>
-		</div>
-		<div class="section">Section2</div>
-		<div class="section">Section3</div>
-		<div class="section">Section4</div>
-	</div>
-	-->
-	<!--fullpage initialization
-	<script type="text/javascript">
-		new fullpage('#fullpage', {
-			//options here
-			sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
-			css3: true,
-			autoScrolling:true,
-			scrollHorizontally: true
-			});
-			//methods
-		fullpage_api.setAllowScrolling(false);
-	</script>
-	-->
 	<!--==============================BODY=====================-->
-	<script type="text/javascript">
-		// Wrap every letter in a span
-		$('.ml6 .letters').each(function(){
-		  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 
-		});
-
-		anime.timeline({loop: true})
-		  	.add({
-			  	targets: '.ml6 .letter',
-			  	translateY: ["-1.2em", 0],
-			  	translateZ: 100,
-			  	duration: 1000,//dropping pace for one of them
-			  	delay: function(el, i) {
-			  		//dropping pace for each, bigger, more seperated
-			  	  	return 100 * i;
-			  	}
-			  	
-		  	})
-		  	
-		  	.add({//for fading away
-		    	targets: '.ml6',
-		    	opacity: 0,
-		    	duration: 1000,
-		    	easing: "easeOutExpo",
-		    	delay: 2000//how long it lasts
-		  	});
-		  	
-	</script>
 </body>
 </html>
