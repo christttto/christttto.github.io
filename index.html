@@ -1,17 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head><!--=========================HEAD==========================-->
-	<!--google analytics-->
+	<!--main css import-->
 	<link type ="text/css" rel="stylesheet" href="css/main.css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131081317-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
 
-	  gtag('config', 'UA-131081317-1');
-	</script>
 	<!--onepagescroll import-->
 	<script type="text/javascript" src="js/onepagescroll.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
@@ -30,26 +22,26 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1><a href = "#">ChrisKim</a></h1></div>
+					<div class="col-md-3"><h1><botton onclick="moveTochriskim()">ChrisKim</botton></h1></div>
 				</div>
 				<div class="row">
 					<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1>Developer</h1></div>
+					<div class="col-md-3"><h1><botton onclick="moveTodevelop()">Develop</botton></h1></div>
 					<div class="col-md-6"><h2><a href = "develop">Web C# Java Python</a></h2></div>
 				</div>
 				<div class="row">
 				<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1>Photograph</h1></div>
+					<div class="col-md-3"><h1><botton onclick="moveTophotograph()">Photograph</botton></h1></div>
 					<div class="col-md-6"><h2><a href = "photograph">Landscape Portrait Experiemental</a></h2></div>
 				</div>
 				<div class="row">
 				<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1>Music</h1></div>
+					<div class="col-md-3"><h1><botton onclick="moveTomusic()">Music</botton></h1></div>
 					<div class="col-md-6"><h2><a href = "music">Bass Guitar Original Project</a></h2></div>
 				</div>
 				<div class="row">
 				<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1>About Me</h1></div>
+					<div class="col-md-3"><h1><botton onclick="moveToaboutme()">About Me</botton></h1></div>
 					<div class="col-md-6"><h2><a href = "about">Hi :]</a></h2></div>
 				</div>
 			</div>
@@ -59,18 +51,44 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3"><h1></h1></div>
-					<div class="col-md-3"><h1>ChrisKim</h1></div>
+					<div class="col-md-3">
+						<h1><botton onclick="moveTochriskim()">chriskim</botton></h1>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="bg page3 ops-section">
 			<!---->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><h1></h1></div>
+					<div class="col-md-3">
+						<h1><botton onclick="moveTochriskim()">chriskim</botton></h1>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section class="bg page4 ops-section">
 			<!---->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><h1></h1></div>
+					<div class="col-md-3">
+						<h1><botton onclick="moveTochriskim()">chriskim</botton></h1>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section class="bg page5 ops-section">
 			<!---->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><h1></h1></div>
+					<div class="col-md-3">
+						<h1><botton onclick="moveTochriskim()">chriskim</botton></h1>
+					</div>
+				</div>
+			</div>
 		</section>
 	</div>
 	
@@ -92,6 +110,23 @@
 	                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
 	                                    // the browser's width is less than 600, the fallback will kick in.
 	});
+	function moveTochriskim(){
+		moveTo(".main",1);	
+	}
+	function moveTodevelop(){
+		moveTo(".main",2);	
+	}
+	function moveTophotograph(){
+		moveTo(".main",3);	
+	}
+	function moveTomusic(){
+		moveTo(".main",4);	
+	}
+	function moveToaboutme(){
+		moveTo(".main",5);	
+	}
+
+
 	</script>
 </body>
 </html>
