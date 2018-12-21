@@ -19,3 +19,11 @@ Started to import code for basic animaiton for text</br>
 TODO : make the text start to appear at slower pace</br>
 TODO : make the letters less bouncy</br>
 added bootstrap to create layers
+
+## 19th
+bootstrap basic layers drawn
+TODO : consider in narrower width monitors for responsive web layout
+
+## 20th
+moving to trello for task management.
+https://trello.com/b/aPgFcRG1/christtttogithubio
