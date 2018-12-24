@@ -27,3 +27,5 @@ TODO : consider in narrower width monitors for responsive web layout
 ## 20th
 moving to trello for task management.
 https://trello.com/b/aPgFcRG1/christtttogithubio
+
+made favicon
