@@ -17,18 +17,14 @@ h2{
 	vertical-align: bottom;
 }
 .bg {
-	padding-top: 10%;
 	background-image: url(../images/background.jpg);
 	height:100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.text{
-	font-size: 50px;
-	color: white;
-	text-align: center;
-	font-family: "Palatino";
+.current{
+	padding-top: 10%;
 
 
 }
