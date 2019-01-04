@@ -23,12 +23,19 @@ h2{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .current{
 	padding-top: 10%;
-
-
 }
-
+.topnav{
+  height:15vh;
+}
+.midnav{
+  height:70vh;
+}
+.botnav{
+  height: 15vh;
+}
 .ml6 {
   position: relative;
   font-weight: 1200;
