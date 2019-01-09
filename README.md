@@ -5,31 +5,23 @@ A rather intersting guy.
 
 To see the workflow of this portfolio page, please visit the link below.  
 https://trello.com/b/aPgFcRG1/christtttogithubio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 # 2018 December
