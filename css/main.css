@@ -6,13 +6,6 @@ div {
 	
 	
 }
-h1{
-	text-align: right;
-	vertical-align: bottom;
-}
-h2{
-	margin-bottom: 0;
-}
 .row{
 	vertical-align: bottom;
 }
@@ -28,13 +21,13 @@ h2{
 	padding-top: 10%;
 }
 .topnav{
-  height:15vh;
+  text-align: right;
 }
 .midnav{
-  height:70vh;
+  text-align: right;
 }
 .botnav{
-  height: 15vh;
+  text-align: right;
 }
 .ml6 {
   position: relative;
