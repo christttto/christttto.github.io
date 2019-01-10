@@ -10,9 +10,12 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.container{
+  height: 100%;
+}
 
 .current{
-	padding-top: 10%;
+  padding-top: 10%;
 }
 .topnav{
   text-align: right;
