@@ -19,12 +19,15 @@ body, html {
 }
 .topnav{
   text-align: right;
+  height:30%;
 }
 .midnav{
   text-align: right;
+  height:50%;
 }
 .botnav{
   text-align: right;
+  height:20%;
 }
 .ml6 {
   position: relative;
