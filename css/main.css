@@ -24,6 +24,21 @@ body, html {
 .page5{
   background-image: url(../images/background5.jpg);
 }
+.page6{
+  background-image: url(../images/background6.jpg);
+}
+.page7{
+  background-image: url(../images/background7.jpg);
+}
+.page8{
+  background-image: url(../images/background8.jpg);
+}
+.page9{
+  background-image: url(../images/background9.jpg);
+}
+.page10{
+  background-image: url(../images/background10.jpg);
+}
 .container{
   height: 100%;
 }
