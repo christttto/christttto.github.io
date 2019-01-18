@@ -42,6 +42,9 @@ body, html {
 .container{
   height: 100%;
 }
+.topmargin{
+  height:20%;
+}
 .topnav{
   text-align: right;
   height:30%;
