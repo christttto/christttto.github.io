@@ -1,6 +1,6 @@
 # christttto.github.io
 Welcome, I will show you who Chris is,  
-A rather intersting guy.
+Intersting guy.
 
 
 To see the workflow of this portfolio page, please visit the link below.  
