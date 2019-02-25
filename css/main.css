@@ -48,11 +48,11 @@ html {
 }
 .topnav {
   text-align: right;
-  height: 30%;
+  height: 20%;
 }
 .midnav {
   text-align: right;
-  height: 50%;
+  height: 60%;
 }
 .botnav {
   text-align: right;
@@ -88,4 +88,10 @@ html {
 .zoom:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+.botnav {
+  color: #c2c2c2;
+}
+.topnav {
+  color: #c2c2c2;
 }
