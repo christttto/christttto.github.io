@@ -1,63 +1,64 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
 .bg {
-	height:100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.page1{
+.page1 {
   background-image: url(../images/background1.jpg);
 }
-.page2{
+.page2 {
   background-image: url(../images/background2.jpg);
 }
-.page3{
+.page3 {
   background-image: url(../images/background3.jpg);
 }
-.page4{
+.page4 {
   background-image: url(../images/background4.jpg);
 }
-.page5{
+.page5 {
   background-image: url(../images/background5.jpg);
 }
-.page6{
+.page6 {
   background-image: url(../images/background6.jpg);
 }
-.page7{
+.page7 {
   background-image: url(../images/background7.jpg);
 }
-.page8{
+.page8 {
   background-image: url(../images/background8.jpg);
 }
-.page9{
+.page9 {
   background-image: url(../images/background9.jpg);
 }
-.page10{
+.page10 {
   background-image: url(../images/background10.jpg);
 }
-.container{
+.container {
   height: 100%;
 }
-.topmargin{
-  height:20%;
+.topmargin {
+  height: 20%;
 }
-.topnav{
+.topnav {
   text-align: right;
-  height:30%;
+  height: 30%;
 }
-.midnav{
+.midnav {
   text-align: right;
-  height:50%;
+  height: 50%;
 }
-.botnav{
+.botnav {
   text-align: right;
-  height:20%;
+  height: 20%;
 }
-.keyword{
+.keyword {
   text-align: left;
 }
 .ml6 {
@@ -78,4 +79,13 @@ body, html {
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+.zoom {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
