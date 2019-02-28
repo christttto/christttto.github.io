@@ -1,7 +1,6 @@
 # christttto.github.io
 
-Welcome, I will show you who Chris is,  
-Intersting guy.
+Welcome, I hope to show who I am well.
 
 To see the workflow of this portfolio page, please visit the link below.  
 https://trello.com/b/aPgFcRG1/christtttogithubio
