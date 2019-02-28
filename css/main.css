@@ -96,3 +96,16 @@ html {
   margin-left: 5%;
   color: #555555;
 }
+
+.christttto {
+  background: url(../favicon/favicon-16x16.png);
+  height: 16px;
+  width: 16px;
+  display: block;
+}
+.christtttoGithub {
+  background: url(../images/GitHub-Mark-64px-grey.png);
+  height: 16px;
+  width: 16px;
+  display: block;
+}
