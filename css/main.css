@@ -103,9 +103,15 @@ html {
   width: 16px;
   display: block;
 }
+.christttto:hover {
+  opacity: 0.7;
+}
 .christtttoGithub {
   background: url(../images/GitHub-Mark-64px-grey.png);
   height: 16px;
   width: 16px;
   display: block;
+}
+.christtttoGithub:hover {
+  opacity: 0.7;
 }
