@@ -108,8 +108,8 @@ html {
 }
 .christtttoGithub {
   background: url(../images/GitHub-Mark-64px-grey.png);
-  height: 16px;
-  width: 16px;
+  height: 100%;
+  width: auto;
   display: block;
 }
 .christtttoGithub:hover {
