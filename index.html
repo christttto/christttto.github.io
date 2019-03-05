@@ -395,13 +395,30 @@
                   <botton onclick="moveToabout()">About</botton>
                 </div>
                 <div class="col-md-6" style="text-align: left">
-                  <form method="POST" action="https://formspree.io/dongwookchriskim@berkeley.edu">
-                    <h1>Email Address</h1>
-                    <input type="email" name="email" placeholder="Your email">
-                    <h1>Message</h1>
-                    <textarea name="message" placeholder="Test Message"></textarea>
-                    <button type="submit">Send Test</button>
-                  </form>
+                  <div class="row indent">
+                    <form
+                      class="container-fluid"
+                      method="POST"
+                      action="https://formspree.io/dongwookchriskim@berkeley.edu"
+                    >
+                      <h3 class="row">Email Address</h3>
+                      <input
+                        class="row form-control"
+                        type="email"
+                        name="email"
+                        placeholder="your@email.com"
+                      />
+                      <h3 class="row">Message</h3>
+                      <textarea
+                        class="row form-control"
+                        name="message"
+                        placeholder="Text"
+                      ></textarea>
+                      <button class="row btn" type="submit" class="btn">
+                        Send
+                      </button>
+                    </form>
+                  </div>
                 </div>
               </div>
             </h1>
