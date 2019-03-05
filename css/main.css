@@ -118,7 +118,8 @@ a:hover {
 .christttto:hover,
 .christtttoGithub:hover,
 .timer:hover,
-.youtube:hover {
+.youtube:hover,
+.instagram:hover {
   opacity: 0.7;
 }
 .christtttoGithub {
@@ -143,7 +144,10 @@ a:hover {
   margin-top: 10px;
   margin-left: 5px;
 }
+
 .instagram {
-  background: url(../images/glyph-logo_May2016.png);
+  background: url(../images/glyph-logo_May2016_grey.png);
   display: block;
+  height: 48px;
+  width: 48px;
 }
